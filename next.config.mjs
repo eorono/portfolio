@@ -5,7 +5,10 @@ import remarkGfm from 'remark-gfm'
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'mdx'],
+  distDir: 'build',
 }
+
+
 
 const withMDX = nextMDX({
   extension: /\.mdx?$/,
