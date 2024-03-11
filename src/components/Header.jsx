@@ -9,7 +9,7 @@ import { Popover, Transition } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import avatarImage from '@/images/1625160333051.jpg'
+import avatarImage from '@/images/portrait.jpg'
 
 function CloseIcon(props) {
   return (
